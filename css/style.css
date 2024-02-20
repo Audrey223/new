@@ -1,0 +1,62 @@
+/* Setting fade transition and default settings */
+body {
+  color: #000;
+  background-color: #E8E4DC;
+  transition: background-color 1s ease;
+}
+
+/* panel styles */
+.panel {
+  /* min height incase content is higher than window height */
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: sans-serif;
+  /* outline: 10px solid hotpink; */
+  /* turn above on to see the edge of panels */
+}
+.black{color: #000000}
+.white{color:#ffffff}
+/* colours */
+.color-color1 {
+  background-color: #000000;
+}
+.color-color2 {
+  background-color: #ffffff;
+}
+.color-color3 {
+  background-color: #258BAA;
+}
+.color-color4 {
+  background-color: #04120A;
+}
+.color-color5 {
+  background-color: #020919;
+  /*background-image: url("images/gwh.gif");*/
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+}
+/* styling for demo, can ignore */
+body {
+  text-align: center;
+  font-size: 120%;
+  line-height: 1.618;
+}
+h1, h2 {
+  font-size: 3em;
+  letter-spacing: -0.05em;
+  line-height: 1.1;
+  color: #ffffff;
+}
+p {
+  max-width: 30em;
+  margin-bottom: 1.618em;
+}
+a {
+  color: #4332CF;
+}
